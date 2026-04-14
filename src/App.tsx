@@ -1,25 +1,10 @@
-function Profile() {
-  return (
-    <img
-      src="https://react.dev/images/docs/scientists/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
-
-function Gallery() {
-  return (
-    <div>
-      <Profile />
-      <Profile />
-      <Profile />
-    </div>
-  );
-}
+import Gallery from "./components/Gallery";
+import { Profile } from "./components/Gallery";
 
 function App() {
   return (
     <div>
+      <Profile />
       <Gallery />
     </div>
   );
