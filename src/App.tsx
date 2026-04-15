@@ -1,11 +1,14 @@
 import Gallery from "./components/Gallery";
-import { Profile } from "./components/Gallery";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <div>
-      <Profile />
-      <Gallery />
+      <Gallery>
+        <Profile />
+        <Profile />
+        <Profile />
+      </Gallery>
     </div>
   );
 }
