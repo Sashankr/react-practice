@@ -1,9 +1,16 @@
 export function Profile() {
+  const srcUrl = "https://react.dev/images/docs/scientists/MK3eW3As.jpg";
+  const name = "Katherine Johnson";
+
+  function displayName() {
+    return "Katherine Johnson";
+  }
+
   return (
-    <img
-      src="https://react.dev/images/docs/scientists/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
+    <>
+      <h2>{displayName()}</h2>
+      <img src={srcUrl} alt={name} />
+    </>
   );
 }
 
