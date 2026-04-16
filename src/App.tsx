@@ -1,5 +1,6 @@
 import Gallery from "./components/Gallery";
 import Greeting from "./components/Greeting";
+import Item from "./components/Item";
 import Profile from "./components/Profile";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           message={"Yes learning about react fundamentals?"}
           toUser={"Sashank"}
         />
+        <Item label={"Umbrella"} isPacked />
+        <Item label={"Toothbrush"} />
       </section>
     </div>
   );
