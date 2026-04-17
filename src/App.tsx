@@ -2,6 +2,7 @@ import Gallery from "./components/Gallery";
 import Greeting from "./components/Greeting";
 import Item from "./components/Item";
 import Profile from "./components/Profile";
+import ProfileList from "./components/ProfileList";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Item label={"Umbrella"} isPacked />
         <Item label={"Toothbrush"} />
       </section>
+      <ProfileList />
     </div>
   );
 }
